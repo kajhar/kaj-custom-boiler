@@ -3,11 +3,10 @@ body {
 }
 h1 {
   color: $header;
-  font-size: 8em;
+  font-size: 4em;
   padding: $padding;
   text-align: center;
-    // &:hover {
-    //   color:$header-hover;
-    //   border: $border solid $header-hover;
-    // } //end &:hover
 } //end h1
+section,aside{
+  padding: $padding;
+}
